@@ -1,3 +1,3 @@
 class CantGetCoordinates(Exception):
-
+    pass
 
