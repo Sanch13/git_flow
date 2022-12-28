@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "git-flow"
+version = "0.1.0"
+description = ""
+authors = ["a.zubchyk <Sanch13sanch@gmail.com>"]
+readme = "README.md"
+packages = [{include = "git_flow"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^1.10.2"
+aiogram = "^2.23.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
